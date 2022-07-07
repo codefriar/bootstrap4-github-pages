@@ -21,4 +21,4 @@ Before we take off🛫, there are a few things you need. Remember, this guide is
   > Note, you need to be able to execute `kubectl` commands on your cluster, so make sure you’ve authenticated.
 - MongoDB Atlas instance. Our MERN stack app uses Mongodb Atlas, as its datastore. You’ll need to [sign up and get the connection URL from the Mongo Atlas interface.](https://www.mongodb.com/atlas/database) Helps to copy paste that to a notes file.
 
-<a class="btn btn-primary" href="/step2.md">👏 Ok, I've got those things, let's get started</a>
+<a class="btn btn-primary" href="step2.md">👏 Ok, I've got those things, let's get started</a>
