@@ -1,3 +1,8 @@
+---
+layout: page
+title: Forking the Repositories
+---
+
 # Forking the repositories
 Alright, go get a lovely beverage [🍹 🥃 🧃 🍷] and lets get started. These next few steps are a bit of a breeze💨, so you'll need a lovely beverage. I trust you’re familiar with GitHub? We created and maintain a couple of example repositories on GitHub. They hold just-enough of an application to demonstrate a 3 layer architecture. In the three-layer architecture you have a Front-end, a Back-end and a Database. Our example builds on the MERN stack, and if you’re new to that, it’s ok. You don’t need to know anything about Mongo, Express, React or Node(MERN) to complete this guide.
 
@@ -10,5 +15,5 @@ So, here’s what you need you to do. Login to GitHub, and visit these two repos
 
 In later steps, you’re gonna need to know your forked repo URLs, so note them down. 
 
-<a class="btn btn-primary" href="index.md">Wait, back up...</a>
-<a class="btn btn-primary" href="step3.md">Got it! Let's keep going</a>
+<a class="btn btn-primary" href="index">Wait, back up...</a>
+<a class="btn btn-primary" href="creatingTheNamespace">Got it! Let's keep going</a>
