@@ -10,5 +10,5 @@ So, here’s what you need you to do. Login to GitHub, and visit these two repos
 
 In later steps, you’re gonna need to know your forked repo URLs, so note them down. 
 
-<a class="btn btn-primary" href="step1.md">Wait, back up...</a>
+<a class="btn btn-primary" href="index.md">Wait, back up...</a>
 <a class="btn btn-primary" href="step3.md">Got it! Let's keep going</a>
