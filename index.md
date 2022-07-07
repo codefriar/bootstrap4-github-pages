@@ -1,113 +1,23 @@
 ---
 layout: page
-title: Bootstrap 4 Github Pages
+title: Getting Started with Harness.io Continuous Integration
 ---
+# Harness CI/CD Pipeline for the MERN Stack on Kubernetes
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/nicolas-van/bootstrap-4-github-pages?style=social)](https://github.com/nicolas-van/bootstrap-4-github-pages)
+![A lovely image of our beloved Captain Canary](/assets/canary.png)
+Hi!, I’m Captain Canary.
+ I’ll be your friend and guide in this exercise. For your safety, please keep all your hands, feet and feathers inside the guide at all times. In this guide we’ll walk through building, testing and deploying our sample app. This app uses the MERN stack and is designed for your Kubernetes cluster. The code for the application is this repository: [harness-apps/MERN-Stack-Example](https://github.com/harness-apps/MERN-Stack-Example). Meanwhile, the DevOps/GitOps configuration is in the [harness-apps/MERN-Stack-Example-GitOps](https://github.com/harness-apps/MERN-Stack-Example-GitOps) repository.
 
-A [Bootstrap 4](https://getbootstrap.com/) template project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
+I designed this guide for two groups. First, developers who are experienced with CI, but new to Harness. Secondly, for developers who are new to both CI and Harness. That said, This guide isn’t a one-size fits all situation. It’s focused on getting you up and running with Harness CI for a very specific application. Specifically, we will use our MERN stack getting started app. Keep that in mind, as you translate what we do to things your app does, or does not, need. I'll try not to assume prior knowledge. But we also don’t want to bore you to death with information and details you already know.
+ 
+I've broken this guide down into topic based sections. Each section introduces the what and why of the actions you need to take. At that point, if you feel comfortable with the what and why, you’re free to take the red pill, login and make it so. If, on the other hand, you’re feeling a bit lost, that’s ok; it’s just my dashing good looks distracting you. Never fear, each section also has a more traditional follow-the-bouncing-ball in depth section.
 
-* A full Bootstrap 4 theme usable both on Github Pages and with a standalone Jekyll.
-* Recompiles Bootstrap from SCSS files, which allows to customize Bootstrap's variables and use Bootstrap themes.
-* Full support of Bootstrap's JavaScript plugins.
-* Supports all features of Github Pages and Jekyll.
+Before we take off, there are a few things you need. Remember, this guide is specific to our MERN stack app. Your app may have different pre-flight steps.
+## Pre-flight checklist
 
-## Setup Guide
+- A Version Control System account. In this guide we’re going to use GitHub. Our example app’s source is on GitHub and you’ll need to fork those repos, so make sure you have a GitHub account. Alternatively, if you’re comfortable following your inner-shoulder-angel’s guide to converting GitHub instructions you can use your own VCS. This, however, is an exercise for the reader. 
+- A Docker Hub account. Harness helps you publish container images virtually anywhere. For this guide we’ll use Docker Hub.
+- Kubernetes cluster. You k8s cluster can run anywhere, so long as it has access to the internet. Later on you’ll create a ‘demo’ namespace. (yeah, naming things is hard) Make sure that namespace is free. (Or you can JIT Translate in your head) Note, you need to be able to execute kubectl commands on your cluster, so make sure you’ve authenticated.
+- MongoDB Atlas instance. Our MERN stack app uses Mongodb Atlas, as its datastore. You’ll need to signup and get the connection URL from the Mongo Atlas interface. Helps to copy paste that to a notes file.
 
-### Create a repository from this template
-
-* [Go to this repository page on Github](https://github.com/nicolas-van/bootstrap-4-github-pages).
-* Click the `Star` button on the top right. (OK, this step is facultative, but that would make you a nice person)
-* Click the `Use this template` button on the top right of the page.
-
-### Choose a name for your repository
-
-Here we have two possibilities:
-
-* **You want a user or organization website**
-
-  In this case your website's URL will be `http://<your username>.github.io` where `<your username>` is your Github user name.
-
-  Choose the repository name `<your username>.github.io`.
-
-* **You want a project website**
-
-  In this case your website's URL will be `http://<your username>.github.io/<whatever you want>` where `<whatever you want>` can be any valid name for a Github repository.
-
-  Choose the repository name `<whatever you want>`.
-
-### Activate Github Pages on your repository
-
-Go in the `Settings` page of your repository, in the `Github Pages`, under the `Source` parameter, choose `master branch` then `Save`.
-
-### That's it
-
-Your Github Pages website with customizable Bootstrap 4 is now up and running, you can access it using the URL displayed by Github in the `Github Pages` settings.
-
-## Customization Guide
-
-### Modify the configuration
-
-You should at least edit the `_config.yml` file to edit your website's metadata, like the title, description and repository URL.
-
-### Change your theme
-
-This website uses the [Minty](https://bootswatch.com/minty/) Bootstrap theme by default. And you don't want to use the same theme everyone else uses do you?
-
-You can of course modify anything in the `_includes`, `_layouts` and `_sass` folders to customize both the HTML or CSS of your website, possibly referring to the [Bootstrap documentation](https://getbootstrap.com/) or the [Jekyll documentation](https://jekyllrb.com/) when needed. This is a normal part of web development and it is outside the scope of this guide.
-
-But if you don't know where to start I can recommend you to import a theme from [Bootswatch](https://bootswatch.com/).
-
-* Go on [Bootswatch](https://bootswatch.com/) and choose a theme that you like.
-* Using the top bar, download its `_variables.scss` and `_bootswatch.scss` files.
-* Copy the content of `_variables.scss` in `_sass/_variables.scss`.
-* Copy the content of `_bootswatch.scss` in `_sass/_bootstrap_customization.scss`.
-
-That's it, you now have a totally different appearance for you website.
-
-### Modify the content
-
-You probably don't want the present guide to be the front page of your website, so you should edit the `index.md` file. You probably also want to edit or delete the `CONTRIBUTING.md`, `README.md` and `LICENSE.md` files.
-
-Aside from that you can of course create new pages and posts like with any Jekyll website by refering to the [Jekyll documentation](https://jekyllrb.com/).
-
-### Run Jekyll on your computer to speed up testing
-
-Editing your website's content or theme directly on Github is completely possible but, due to the time Github Pages takes to update your website, it will probably be much more effective to work using a local Jekyll installation.
-
-To do so:
-
-* Install the [requirements for Jekyll](https://jekyllrb.com/docs/installation/).
-* Type `bundle install` at the root of your project to install the necessary Ruby dependencies.
-* Type `bundle exec jekyll serve` to launch the test Jekyll web server that will re-compile your work if you edit it.
-* You can then open `http://localhost:4000` in your web browser to see your work-in-progress website.
-
-Please note that, to ensure maximum compatibility with Github Pages, the `Gemfile` of this project references the `github-pages` gem, not Jekyll directly. This implies some differences in behavior compared to the official documentation of Jekyll.
-
-## Known issues
-
-* Bootstrap 4 should normally be post-processed using [Autoprefixer](https://github.com/postcss/autoprefixer). Even if it is possible to use autoprefixer with Jekyll, it is not possible with a classic Github Pages installation without adding some kind of pre-processing before publication. Since this project mostly aims compatibility with Github Pages I prefer to keep it that way. The consequences of this choice is that some Bootstrap features could not work as expected on older browsers.
-
-## How to contribute
-
-Like this project ? [Consider adding a star on Github](https://github.com/nicolas-van/bootstrap-4-github-pages).
-
-[You can also see the contribution guide](https://github.com/nicolas-van/bootstrap-4-github-pages/blob/master/CONTRIBUTING.md).
-
-## Websites using Bootstrap 4 Github Pages
-
-* [My personal blog](https://nicolas-van.github.io/)
-* [the wavelet's profile](https://thewavelet.github.io/)
-* [William Moore's website](https://will2bill.com/)
-* [roseblood.github.io](https://roseleblood.github.io/)
-* [borislouis.github.io](https://borislouis.github.io/)
-* [dariusnwadike.github.io](https://dariusnwadike.github.io/)
-* [libcoap.net](https://libcoap.net/)
-
-## Other Github Pages related projects
-
-I'm a fan of Github Pages for the possibilities it offers to anyone to publish a website for free. I have multiple projects that could be of interest if that's your case too:
-
-* [Easy Markdown to Github Pages](https://nicolas-van.github.io/easy-markdown-to-github-pages/)
-* [Parcel Github Pages Boilerplate](https://github.com/nicolas-van/parcel-github-pages-boilerplate)
-
+<a class="btn btn-primary" href="/step2.md">Ok, I've got those things, let's get started</a>
