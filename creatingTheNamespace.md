@@ -19,3 +19,6 @@ That command should return a success message like this:
 ```sh
 namespace/demo created
 ```
+
+<a class="btn btn-primary" href="forkingTheRepos">🔙 Let me see the previous page again</a>
+<a class="btn btn-primary" href="secretsIntro">✅ Got it! 📈 Onward and upward</a>
