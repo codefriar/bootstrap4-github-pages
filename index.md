@@ -4,7 +4,7 @@ title: Getting Started with Harness.io Continuous Integration
 ---
 # Harness CI/CD Pipeline for the MERN Stack on Kubernetes
 
-![A lovely image of our beloved Captain Canary](/assets/canary.png)
+![A lovely image of our beloved Captain Canary](/assets/images/canary.png)
 Hi!, I’m Captain Canary.
  I’ll be your friend and guide in this exercise. For your safety, please keep all your hands, feet and feathers inside the guide at all times. In this guide we’ll walk through building, testing and deploying our sample app. This app uses the MERN stack and is designed for your Kubernetes cluster. The code for the application is this repository: [harness-apps/MERN-Stack-Example](https://github.com/harness-apps/MERN-Stack-Example). Meanwhile, the DevOps/GitOps configuration is in the [harness-apps/MERN-Stack-Example-GitOps](https://github.com/harness-apps/MERN-Stack-Example-GitOps) repository.
 
@@ -21,4 +21,4 @@ Before we take off🛫, there are a few things you need. Remember, this guide is
   > Note, you need to be able to execute `kubectl` commands on your cluster, so make sure you’ve authenticated.
 - MongoDB Atlas instance. Our MERN stack app uses Mongodb Atlas, as its datastore. You’ll need to [sign up 🆓 and get the connection URL from the Mongo Atlas interface.](https://www.mongodb.com/atlas/database) Helps to copy paste that to a notes file.
 
-<a class="btn btn-primary" href="forkingTheRepos">👏 Ok, I've got those things, let's get started</a>
+<a class="btn btn-primary" href="Forking/forkingTheRepos">👏 Ok, I've got those things, let's get started</a>
