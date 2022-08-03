@@ -49,5 +49,5 @@ At this point, we’ve created the Docker Hub connector. W00t! Feeling good abou
 - Last, but certainly not least, you’ll need to set up a connector for your Kubernetes cluster!
 
 Want some additional guidance?  
-<a class="btn btn-primary" href="Connectors/connectorDetails">No problem, take this red pill and we’ll deep-dive into the matrix.</a>
-<a class="btn btn-primary" href="Services/ServicesIntro">✅ I DID IT! I created my connectors! Take me to the Services</a>
+<a class="btn btn-primary" href="../Connectors/connectorDetails">No problem, take this red pill and we’ll deep-dive into the matrix.</a>
+<a class="btn btn-primary" href="../Services/ServicesIntro">✅ I DID IT! I created my connectors! Take me to the Services</a>

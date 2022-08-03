@@ -22,7 +22,7 @@ Select **Pre Production** for **Environment Type**, then click **Save**.
 
 ## And that's it. 
 
-<a class="btn btn-primary" href="Services/servicesDetails">Wait! What's a service again?</a>
-<a class="btn btn-primary" href="Pipelines/pipelinesIntroduction">✅ All done with Environments! Let me at those pipelines</a>
+<a class="btn btn-primary" href="../Services/servicesDetails">Wait! What's a service again?</a>
+<a class="btn btn-primary" href="../Pipelines/pipelinesIntroduction">✅ All done with Environments! Let me at those pipelines</a>
 
 

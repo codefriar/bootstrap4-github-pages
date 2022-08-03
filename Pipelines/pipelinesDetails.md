@@ -72,5 +72,5 @@ And just like that, you’ve built your first CI pipeline. Now unless my minions
  
 When we started this journey we talked about how this application had three layers. A frontend, backend and database layer. We’ve just built a pipeline to test and build the backend, or server layer. We, er, I mean you, need to build the pipeline for the frontend. Pilot, you are clear for takeoff.
 
-<a class="btn btn-primary" href="Pipelines/pipelinesIntroduction">I'd like to restart the pipelines section please</a>
-<a class="btn btn-primary" href="Pipelines/clientIntroduction">✅ All done with the server pipeline! Lets tackle the client pipeline</a>
+<a class="btn btn-primary" href="../Pipelines/pipelinesIntroduction">I'd like to restart the pipelines section please</a>
+<a class="btn btn-primary" href="../Pipelines/clientIntroduction">✅ All done with the server pipeline! Lets tackle the client pipeline</a>

@@ -30,5 +30,5 @@ Enter “atlasMongoDB Atlas uri” in the Secret Name field.
 
 Enter your MongoDB Atlas URI in the Secret Value field, then click Save.
 
-<a class="btn btn-primary" href="Secrets/secretsIntro">🔙 Wait, what's a secret again?</a>
-<a class="btn btn-primary" href="Connectors/connectorsIntro">✅ Done! All my secrets are belong to you. Take me to the next step!</a>
+<a class="btn btn-primary" href="../Secrets/secretsIntro">🔙 Wait, what's a secret again?</a>
+<a class="btn btn-primary" href="../Connectors/connectorsIntro">✅ Done! All my secrets are belong to you. Take me to the next step!</a>

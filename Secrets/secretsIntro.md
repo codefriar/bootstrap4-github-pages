@@ -21,6 +21,6 @@ Easy peasy lemon 🍋 squeezy! Right? Ok, now if you’re feeling like you’ve 
 A text secret called ‘`Docker Hub Access Token`’ (Again, our crack team of naming specialists is top notch!) populated with your Docker Hub access token.
 A text secret called ‘`MongoDB Atlas URI`’. You'll need to populate it with the connection url from the MongoDB Atlas console.
 
-<a class="btn btn-primary" href="Namespaces/creatingTheNamespace">🔙 Let me see the previous page again</a>
-<a class="btn btn-primary" href="Secrets/secretsDetails">You know what, I'd like to follow the bouncing ball 🏀 </a>
-<a class="btn btn-primary" href="Connectors/connectorsIntro">✅ Done! All my secrets are belong to you. Take me to the next step!</a>
+<a class="btn btn-primary" href="../Namespaces/creatingTheNamespace">🔙 Let me see the previous page again</a>
+<a class="btn btn-primary" href="../Secrets/secretsDetails">You know what, I'd like to follow the bouncing ball 🏀 </a>
+<a class="btn btn-primary" href="../Connectors/connectorsIntro">✅ Done! All my secrets are belong to you. Take me to the next step!</a>

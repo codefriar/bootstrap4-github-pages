@@ -26,5 +26,5 @@ Verify that MERN Client and MERN Server appear in the service list.
 
 ![](../assets/images/image032.jpg)
 
-<a class="btn btn-primary" href="Services/servicesIntroduction">Wait! What's a service again?</a>
-<a class="btn btn-primary" href="Environments/environmentIntroduction">✅ All done with Services. I created everything and take me to Environment</a>
+<a class="btn btn-primary" href="../Services/servicesIntroduction">Wait! What's a service again?</a>
+<a class="btn btn-primary" href="../Environments/environmentIntroduction">✅ All done with Services. I created everything and take me to Environment</a>

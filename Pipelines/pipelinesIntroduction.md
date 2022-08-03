@@ -94,7 +94,7 @@ Hint: Harness has a built-in action to build and push docker images to Docker Hu
 
 ## And that's it. 
 
-<a class="btn btn-primary" href="Pipelines/pipelinesDetails">Wait! I was walking my pet butterfly and missed something about pipelines. Help?</a>
-<a class="btn btn-primary" href="Pipelines/clientIntroduction">✅ All done with the server pipeline! Lets tackle the client pipeline</a>
+<a class="btn btn-primary" href="../Pipelines/pipelinesDetails">Wait! I was walking my pet butterfly and missed something about pipelines. Help?</a>
+<a class="btn btn-primary" href="../Pipelines/clientIntroduction">✅ All done with the server pipeline! Lets tackle the client pipeline</a>
 
 
