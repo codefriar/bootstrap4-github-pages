@@ -2,7 +2,6 @@
 layout: page
 title: Getting Started with Harness.io Continuous Integration
 ---
-# Harness CI/CD Pipeline for the MERN Stack on Kubernetes
 
 ![A lovely image of our beloved Captain Canary](/assets/images/canary.png)
 Hi!, I’m Captain Canary.

@@ -3,7 +3,6 @@ layout: page
 title: Secrets
 ---
 
-# Secrets
 Greetings! Captain Canary, again. One time, in third grade, I had a huge crush 💞 on Dolores 🦢. Honestly, as far as secrets go that’s not a great one; but you get the idea. Harness uses secrets to securely store things like access tokens. 
 
 We’re going to walk you through creating the GitHub secret. Then you’ll have a choose-your-own-adventure path for the remaining secrets. You know, the ones for Docker Hub and MongoDB Atlas URI.

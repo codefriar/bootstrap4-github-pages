@@ -25,7 +25,7 @@ Ensure that the MongoDB Atlas instance is accessible from your Kubernetes cluste
 
 Click New Secret, then select Text.
 
-![Adding the Mongo Atlas URI Secret](assets/images/mongoAtlasURISecret.png)
+![Adding the Mongo Atlas URI Secret](/assets/images/mongoAtlasURISecret.png)
 Enter “atlasMongoDB Atlas uri” in the Secret Name field.
 
 Enter your MongoDB Atlas URI in the Secret Value field, then click Save.

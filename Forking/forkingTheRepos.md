@@ -3,7 +3,6 @@ layout: page
 title: Forking the Repositories
 ---
 
-# Forking the repositories
 Alright, go get a lovely beverage [🍹 🥃 🧃 🍷] and lets get started. These next few steps are a bit of a breeze💨, so you'll need a lovely beverage. I trust you’re familiar with GitHub? We created and maintain a couple of example repositories on GitHub. They hold just-enough of an application to demonstrate a 3 layer architecture. In the three-layer architecture you have a Front-end, a Back-end and a Database. Our example builds on the MERN stack, and if you’re new to that, it’s ok. You don’t need to know anything about Mongo, Express, React or Node(MERN) to complete this guide.
 
 You do have to make your own fork of our two repositories. But wait, you say, you said there’s three layers, but only two repositories? Good catch, my eagle-eyed 🦅👁️ friends. The first repository, found here: [https://github.com/harness-apps/MERN-Stack-Example](harness-app/MERN-Stack-Example) contains the application. All of the frontend and backend code is there. The second repo over at:  [https://github.com/harness-apps/MERN-Stack-Example-GitOps](harness-apps/MERN-Stack-Example-GitOps) contains the GitOps / GitOps configuration. Why separate them? Because GitOps that's why. Now I don’t want to tweet all preachy but GitOps is a great thing. Keeping all-things deployment related in Git ensures your ops team is in control.
