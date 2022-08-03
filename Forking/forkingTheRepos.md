@@ -14,5 +14,5 @@ So, here’s what you need you to do. Login to GitHub, and visit these two repos
 
 In later steps, you’re gonna need to know your forked repo URLs, so note them down. 
 
-<a class="btn btn-primary" href="index">🔙 Wait, back up...</a>
+<a class="btn btn-primary" href="/">🔙 Wait, back up...</a>
 <a class="btn btn-primary" href="Namespaces/creatingTheNamespace">✅ Got it! Let's keep going</a>
