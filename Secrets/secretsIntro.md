@@ -11,10 +11,10 @@ We’re going to walk you through creating the GitHub secret. Then you’ll have
 Harness needs a Personal Access Token to access GitHub repositories. Refer to the Add a GitHub Connector documentation for how to generate the token.
 
 1. `Click New Secret, then select Text.`
-   ![Picture of the Harness new secret UI](/assets/images/1.png)
+   ![Picture of the Harness new secret UI](../assets/images/1.png)
 2. `Enter “GitHub Personal Access Token” in the Secret Name field.`
 3. `Enter your Personal Access Token in the Secret Value field, then click Save.`
-4. ![Picture of the Harness new encrypted text secret UI](/assets/images/2.png)
+4. ![Picture of the Harness new encrypted text secret UI](../assets/images/2.png)
 
 
 Easy peasy lemon 🍋 squeezy! Right? Ok, now if you’re feeling like you’ve got this, feel free to jump over to Harness and add two more secrets:
