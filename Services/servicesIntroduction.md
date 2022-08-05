@@ -8,5 +8,5 @@ Captain Canary here, Thanks for working through this with me. Ok, so our naming 
 
 If you’re feeling familiar with the Harness UI at this point, dive right in and create those two services. Name them ‘MERN Server and ‘MERN Client’. Services don’t have too many options (or any) so creating them is pretty straightforward. You got this one!
 
-<a class="btn btn-primary" href="Connectors/connectorDetails">Let me see those service details</a>
-<a class="btn btn-primary" href="Environments/environmentsIntroduction">✅ All done with Services. I created everything and take me to Environment</a>
+<a class="btn btn-primary" href="../Services/serviceDetails">Let me see those service details</a>
+<a class="btn btn-primary" href="../Environments/EnvironmentsIntroduction">✅ All done with Services. I created everything and take me to Environment</a>

@@ -131,4 +131,4 @@ Wait for the test to complete, then click **Finish**.
 # All done with Connectors!
 
 <a class="btn btn-primary" href="../Connectors/connectorDetails">Can I go back to the connectors intro please?</a>
-<a class="btn btn-primary" href="../Services/ServicesIntro">✅ Onward and Upwards to Services</a>
+<a class="btn btn-primary" href="../Services/servicesIntroduction">✅ Onward and Upwards to Services</a>
