@@ -10,10 +10,10 @@ Not feeling confident with adding secrets? No big deal. Can I tell you a secret?
 Harness needs a Docker Hub access token to publish Docker images to your account. See Docker Hub’s [Manage access tokens documentation](https://docs.docker.com/docker-hub/access-tokens/) to learn how to create an access token. The token must have **Read**, **Write** and **Delete** permissions.
 
 To get started, click New Secret, then select Text.
-![Picture of the Harness new secret UI](assets/images/3.png)
+![Picture of the Harness new secret UI](../assets/images/3.png)
 
 Enter “Docker Hub Access Token” in the Secret Name field.
-![Picture of the Harness new encrypted text secret UI](assets/images/4.png)
+![Picture of the Harness new encrypted text secret UI](../assets/images/4.png)
 
 Enter your access token in the Secret Value field, then click Save.
 
@@ -25,7 +25,7 @@ Ensure that the MongoDB Atlas instance is accessible from your Kubernetes cluste
 
 Click New Secret, then select Text.
 
-![Adding the Mongo Atlas URI Secret](/assets/images/mongoAtlasURISecret.png)
+![Adding the Mongo Atlas URI Secret](../assets/images/mongoAtlasURISecret.png)
 Enter “atlasMongoDB Atlas uri” in the Secret Name field.
 
 Enter your MongoDB Atlas URI in the Secret Value field, then click Save.
